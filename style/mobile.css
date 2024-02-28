@@ -1,0 +1,109 @@
+@media only screen and (max-width: 600px) {
+    header {
+        background-image: url(background/phone-bg.png);
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    header h1 {
+        text-align: center;
+    }
+
+    header div {
+        flex-direction: column;
+    }
+
+    .button-download-mac {
+        margin-top: 15px;
+        margin-left: 0;
+    }
+
+    .section-header {
+        text-align: center;
+    }
+
+    .section-text { 
+        text-align: center;
+    }
+
+    .section-one div figure img {
+        width: 80%;
+    }
+    
+    .section-two figure {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section-two figure img {
+        width: 80%;
+    }
+
+    .section-three div {
+        flex-direction: column;
+    }
+
+    .section-three div div {
+        width: 90%;
+        margin-top: 80px;
+    }
+
+    .logo-container {
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .logo-container figure {
+        margin-top: 60px;
+        width: 100%;
+    }
+
+    .section-four div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer {
+        flex-direction: column;
+        height: auto;
+    }
+
+    footer figure {
+        width: 100%;
+
+    }
+
+    footer figure img {
+        width: 25%;
+    }
+
+    footer div {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        padding: 10px 0 0 0;
+    } 
+
+    footer div a {
+        width: 100%;
+        text-align: center;
+    }
+
+    .social-container {
+        text-align: start;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        width: 100%;
+        padding: 40px 0px;
+    }
+
+    .social-container a {
+        width: 10%;
+    }
+}
