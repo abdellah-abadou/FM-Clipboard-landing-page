@@ -327,7 +327,7 @@ footer a:hover {
     color: var(--Light-Blue);
 }
 
-@media only screen and (max-width: 1440px) {
+@media only screen and (max-width: 1430px) {
     footer {
         height: 18vh;
     }
